@@ -14,6 +14,7 @@
 
  ```perl
  📁 Checking-File-Integrity
+ ├── .gitignore
  ├── main.py 
  ├── README.py
  └── requirements.txt
@@ -29,13 +30,13 @@
 ## 1️⃣ Clone the Repository
 
  ```bash
- git clone 
+ git clone https://github.com/m-rishad78/pdf-locker.git
  ```
 
 ## 2️⃣ Navigate to the Project Directory
 
  ```bash
- cd PDF-Locker
+ cd pdf-locker
  ```
 
 ## ⬇️ Install Dependencies
