@@ -59,8 +59,8 @@ pip install PyPDF2 zxcvbn
  python main.py
  ```
 
- **02.** Enter the PDF filename (must be in the same directory or provide the full path)
- **03.** Enter a strong password
+ **02.** Enter the PDF filename (must be in the same directory or provide the full path)\n
+ **03.** Enter a strong password\n
  **04.** After successfull encryption, a new PDF will be created with _locked.pdf suffix
 
 
