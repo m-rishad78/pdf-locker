@@ -10,7 +10,7 @@
  - Provides feedback for weak passwords
  - Handles exceptions & keyboard interrupts gracefully
 
-## How it works
+## 🧠 How it works
 
  - Generate a PDF writer object
  - Encrypt with the password
