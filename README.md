@@ -1,6 +1,6 @@
 # 🔐 PDF Locker
 
- A Python based tool to **secure your PDF files** with a strong password.The program enforces password strength using the **zxcvbn** (https://github.com/dropbox/zxcvbn.git) library & creates a new locked PDF file, keeping your original file intact.
+ A Python based tool to **secure your PDF files** with a strong password. The program enforces password strength using the **zxcvbn** (https://github.com/dropbox/zxcvbn.git) library & creates a new locked PDF file, keeping your original file intact.
 
 ## 🚀 Features
 
@@ -10,13 +10,19 @@
  - Provides feedback for weak passwords
  - Handles exceptions & keyboard interrupts gracefully
 
+## How it works
+
+ - Generate a PDF writer object
+ - Encrypt with the password
+ - Save as `_locked.pdf`
+
 ## 📂 Project Structure
 
- ```perl
- 📁 Checking-File-Integrity
+ ```tree
+ 📁 pdf-locker
  ├── .gitignore
  ├── main.py 
- ├── README.py
+ ├── README.md
  └── requirements.txt
  ```
 
@@ -61,12 +67,12 @@ pip install PyPDF2 zxcvbn
 
  **02.** Enter the PDF filename (must be in the same directory or provide the full path)  
  **03.** Enter a strong password  
- **04.** After successfull encryption, a new PDF will be created with _locked.pdf suffix  
+ **04.** After successful encryption, a new PDF will be created with `_locked.pdf` suffix  
 
 
  Example:
 
- ```css
+ ```text
  Enter the PDF name: sample.pdf
  Enter the Password: ******
 
